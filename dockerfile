@@ -13,6 +13,6 @@ RUN apt-get install git -y
 RUN apt-get install curl -y
 RUN apt-get install gettext-base -y
 
-RUN curl -sL https://deb.nodesource.com/setup_13.x | sudo bash -
+RUN curl -sL https://deb.nodesource.com/setup_13.x | bash -
 
 RUN apt-get install nodejs
